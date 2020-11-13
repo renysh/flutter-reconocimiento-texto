@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1050588196727",
+    "firebase_url": "https://control-electoral-c552f.firebaseio.com",
+    "project_id": "control-electoral-c552f",
+    "storage_bucket": "control-electoral-c552f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050588196727:android:a79f36e37e0a6b23a57b72",
+        "android_client_info": {
+          "package_name": "com.example.flutter_vision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050588196727-lp351a6g9mqdls3gtoo9j7tha8862fjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhdO4nGNGuOcTQQS9pergmvN7O3nLP3S0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050588196727-lp351a6g9mqdls3gtoo9j7tha8862fjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
