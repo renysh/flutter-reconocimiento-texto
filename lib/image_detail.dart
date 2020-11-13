@@ -42,7 +42,13 @@ class _DetailScreenState extends State<DetailScreen> {
 
     String mailAddress = "";
     for (TextBlock block in visionText.blocks) {
+      
       for (TextLine line in block.lines) {
+        print(line.text);
+        mailAddress += line.text + '\n';
+        for (TextElement element in line.elements) {
+          _elements.add(element);
+        }
         if (regEx.hasMatch(line.text)) {
           mailAddress += line.text + '\n';
           // Retrieve the elements and store them in a list
@@ -136,7 +142,7 @@ class _DetailScreenState extends State<DetailScreen> {
                             ),
                           ),
                           Container(
-                            height: 60,
+                            height: 100,
                             child: SingleChildScrollView(
                               child: Text(
                                 recognizedText,
